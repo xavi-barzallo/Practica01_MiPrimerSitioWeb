@@ -57,13 +57,13 @@ nav {
 }
 
 
-body > article#index {
+body > article.index {
 	width: 51%;
 	float: left;
 	margin: 0 3% 0 3%;
 }
 
-body > article#index img {
+body > article.index img {
 	float: right;
 	width: 40%;
 	margin: 0px 0 10px 10px;
@@ -103,7 +103,6 @@ header img {
 body p, body address {
 	margin: 3.5% 1%;
 	font-size: 1em;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-style: normal;
 	height: 100%;
 }
@@ -113,7 +112,6 @@ body p, body address {
 blockquote {
 	font-size: 1em;
 	width: 100%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	margin: 0 0 4% 0;
 }
 footer {
@@ -121,7 +119,6 @@ footer {
 	font-size: 0.6em;
 	margin-top: 4%;
 	border-top: 3px solid rgb(68, 0, 255);
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	clear: both;
 	padding-bottom: 20px;
 }
@@ -132,7 +129,7 @@ blockquote p:last-of-type {
 }
 
 
-article p, article address {font-family: "Times New Roman", Times, serif;}
+
 
 
 
