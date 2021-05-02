@@ -131,9 +131,7 @@ blockquote p:last-of-type {
 	font-size: 1em;
 }
 
-q {quotes: "\201C" "\201D" "\2018" "\2019";}
-q:before {content:open-quote;}
-q:after {content:close-quote;}
+
 article p, article address {font-family: "Times New Roman", Times, serif;}
 
 
@@ -197,7 +195,19 @@ footer {
 }
 }
 
+body > form#formula #comenta {
+	width: 700px ; 
+	height: 250px;
+	justify-content: center;
+  align-items: center;
+}
 
+body > form#formula #nom {
+	width: 200px ; 
+	height: 20px;
+	justify-content: center;
+  align-items: center;
+}
 
 
 @media only screen and (min-width: 769px) {
