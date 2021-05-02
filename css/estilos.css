@@ -3,6 +3,7 @@
 	src: url(../Font/ZenDots-Regular.ttf);
 }
 
-article, p, a, h1, h2{
+article, p, a, h1, h2, blockquote{
 	font-family: "ZenDots-Regular"; 
 }
+
